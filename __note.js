@@ -1,4 +1,21 @@
 /**
+ * http module
+ * https://nodejs.org/dist/latest-v16.x/docs/api/http.html
+ * 
+ * fs module
+ * https://nodejs.org/dist/latest-v16.x/docs/api/fs.html
+ * 
+ * url module
+ * https://nodejs.org/dist/latest-v16.x/docs/api/url.html
+ * 
+ * path module
+ * https://nodejs.org/dist/latest-v16.x/docs/api/path.html
+ * 
+ * https://www.youtube.com/watch?v=FBkZ2TJZZUY
+ * 
+ * */ 
+
+/**
  * curl -v localhost:3000
  * curl -v localhost:3000/node.png --output -
  *  http message :
