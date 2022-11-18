@@ -18,6 +18,7 @@
 /**
  * curl -v localhost:3000
  * curl -v localhost:3000/node.png --output -
+ * curl -v www.google.com
  *  http message :
         // 1. start-line - CHECK
         // 2. header
