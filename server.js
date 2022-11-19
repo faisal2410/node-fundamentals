@@ -35,6 +35,14 @@ if(req.url==="/home"){
     res.write(css);
     res.end();
 }
+else if(req.url==='/about.css'){
+    res.writeHead(200,{
+        'Content-Type':'text/css'
+    })
+    const css1 = fs.readFileSync('about.css')    
+    res.write(css1);
+    res.end();
+}
 else{
     res.writeHead(404,{
         'Content-Type':'text/html'
